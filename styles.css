@@ -1,0 +1,63 @@
+body {
+    font-family: Bevan, Bevan;
+    background-color: #000000;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #1a1a1a;
+    padding: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+textarea {
+    background-color: #333333;
+    color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #00ff00;
+    color: #000000;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+}
